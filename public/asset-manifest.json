@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f835f92.css",
+    "main.js": "/static/js/main.41795e45.js",
+    "static/js/453.ced1ed98.chunk.js": "/static/js/453.ced1ed98.chunk.js",
+    "static/media/banner (1).png": "/static/media/banner (1).60f3f50a289cfe9abbc9.png",
+    "static/media/hero.png": "/static/media/hero.506664526ff3218d3cd1.png",
+    "static/media/long-big-card.png": "/static/media/long-big-card.c121b27060225a3ea7b7.png",
+    "static/media/long-card.png": "/static/media/long-card.8d32400e638abba264ea.png",
+    "static/media/card2.png": "/static/media/card2.cae1e928bfcf68bfa186.png",
+    "static/media/enricher card.png": "/static/media/enricher card.1010a2f0e4927e594740.png",
+    "static/media/card1.png": "/static/media/card1.042f5ee7aba8a86399f3.png",
+    "static/media/card3.png": "/static/media/card3.2d666d19cb559d56411e.png",
+    "static/media/blacklist shield card.svg": "/static/media/blacklist shield card.0deddb25c1b67e395d511ac7c0ff555f.svg",
+    "static/media/screener card.svg": "/static/media/screener card.511daf318f646eddcafe675c9ee4c81a.svg",
+    "static/media/verifier card.svg": "/static/media/verifier card.d0b7874237b50ada9bbab339da750fdf.svg",
+    "index.html": "/index.html",
+    "main.0f835f92.css.map": "/static/css/main.0f835f92.css.map",
+    "main.41795e45.js.map": "/static/js/main.41795e45.js.map",
+    "453.ced1ed98.chunk.js.map": "/static/js/453.ced1ed98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f835f92.css",
+    "static/js/main.41795e45.js"
+  ]
+}

@@ -1,0 +1,372 @@
+.main{
+    margin: 20px;
+    background-color: aliceblue;
+}
+
+/* ------------------------------------------gpt------------------------------------- */
+
+  /* Main Text Section - Centered and Simplified */
+
+
+/* Main Text Section - Centered and Simplified */
+.main1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.main1 h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.main1 p {
+    font-size: 18px;
+    color: #666;
+    opacity: 0.7;
+    margin: 15px auto;
+    max-width: 500px;
+}
+
+/* Button Styling - Centered Below Text */
+.main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 45px;
+    margin: 30px auto;
+    background-color: rgb(67, 67, 244);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Image Section */
+.main3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.images .img2{
+    padding-top: 90px;
+}
+
+.images .img1  {
+    
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.images .img1:hover, .images .img2:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+
+
+/* --------------------------------------------gpt----------- */
+
+
+
+/* ==========================================================my code-======================== */
+
+/* ---------------------------------------------main4----------------------------- */
+.main4{
+    background-color: aliceblue;
+    text-align: center;
+}
+.main4-p1{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main4-p2{
+    margin: 40px;
+}
+
+.section{
+    display: flex;
+    gap: 15px;
+    margin: 50px;
+}
+.section .sec1{
+    height: 280px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.section .sec1 :hover{
+    transform: scale(0.5);
+    color: #3b82f6;
+}
+.section .sec2{
+    height: 280px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.section .sec2:hover{
+    transform: scale(1.05);
+    color: #3b82f6;
+}
+.section .sec3{
+    height: 280px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.section .sec3:hover{
+    transform: scale(1.05);
+    color: #3b82f6;
+}
+
+.section .sec4{
+    height: 280px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.section .sec4:hover{
+    transform: scale(1.05);
+    color: #3b82f6;
+}
+
+.sec1 .sec1-s1{
+    border: 1px solid black;
+    margin-left: 27px;
+    margin-top: 10px;
+   
+    text-align: center;
+    height: 120px;
+    width: 200px;
+}
+.sec1-s1 .s1{
+    height: 100px;
+    width: 100px;
+    font-size: 80px;
+}
+.sec1-s2 {
+    border: 2px solid gray;
+    margin: 10px;
+    height: 140px;
+    width: 225px;
+}
+
+.sec1-s2 .s2 .l1{
+    border: 1px solid blue;
+    margin: 5px;
+    list-style: none;
+    padding-left: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.sec1-s2 h4{
+
+    margin-top: 70px;
+}
+
+.section2{
+    background-color: white;
+    margin: 80px;
+}
+.section2 .A1{
+    display: flex;
+    justify-content: space-between;
+}
+.A1 .btn1{
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    border: 8px;
+    color: white;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.A1 .btn2{
+    height: 40px;
+    width: 100px;
+    border: 8px;
+    color: rgb(68, 17, 222);
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
+
+.A1 .a1{
+    display: flex;
+    gap:15px;
+    margin-top: 20px;
+}
+.A1 .a1 .i1{
+    border: 5px solid gray;
+    height: 220px;
+    width: 180px;
+    border-radius: 10px ;
+    background-color: aliceblue; 
+   
+}
+.A1 .a1 .i1 li{
+    list-style: none;
+    font-size: 45px;
+    background-color: aliceblue; 
+}
+.A1 .a1 .i2{
+    border: 5px solid gray;
+    border-radius: 10px ;
+    height: 160px;
+    width: 120px;
+    margin-top: 60px; 
+    background-color: aliceblue; 
+}
+.A1 .a1 .i2 li{
+    list-style: none;
+    font-size: 30px;
+    margin-top: 40px;
+    background-color: aliceblue ;
+}
+
+/* ============================responsive================== */
+/* General Styling (No Change from Original Code) */
+/* Add media queries below for responsiveness */
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .images {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .section {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .section .sec1, 
+    .section .sec2, 
+    .section .sec3, 
+    .section .sec4 {
+        width: 200px;
+        height: 250px;
+    }
+
+    .sec1 .sec1-s1 {
+        margin-left: 15px;
+        width: 160px;
+    }
+
+    .sec1-s2 {
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main1 h1 {
+        font-size: 36px;
+    }
+
+    .main1 p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .section {
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .section .sec1, 
+    .section .sec2, 
+    .section .sec3, 
+    .section .sec4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .section2 .A1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .A1 .btn1,
+    .A1 .btn2 {
+        width: 80px;
+        height: 35px;
+    }
+
+    .A1 .a1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .A1 .a1 .i1, 
+    .A1 .a1 .i2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        margin: 10px;
+    }
+
+    .main1 h1 {
+        font-size: 28px;
+    }
+
+    .main1 p {
+        font-size: 14px;
+    }
+
+    .main2 {
+        width: 100px;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .section .sec1, 
+    .section .sec2, 
+    .section .sec3, 
+    .section .sec4 {
+        height: auto;
+    }
+
+    .section .sec1 .sec1-s1, 
+    .section .sec1 .sec1-s2 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .A1 .btn1, 
+    .A1 .btn2 {
+        font-size: 12px;
+    }
+
+    .A1 .a1 .i1 li,
+    .A1 .a1 .i2 li {
+        font-size: 24px;
+    }
+}

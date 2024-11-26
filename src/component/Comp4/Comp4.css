@@ -1,0 +1,88 @@
+.comp4{
+    background-color: aliceblue;
+    margin: 20px;
+
+}
+.m1{
+    text-align: center;
+}
+
+.form{
+    margin: 100px;
+}
+.fornm1{
+    border: 1px solid gray;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 0 0.5;
+    background-color: white;
+}
+
+
+
+/* =======================================responsive -========================= */
+/* Base Styling */
+.comp4 {
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add shadow for a clean look */
+}
+
+.m1 {
+    text-align: center;
+    font-size: 24px;
+    color: navy;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease; /* Smooth fade-in animation */
+}
+
+/* Form Styling */
+.form {
+    margin: 50px auto;
+    max-width: 600px; /* Limit form width for readability */
+}
+
+.fornm1 {
+    border: 2px solid #ddd;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth interaction */
+}
+
+.fornm1:focus {
+    border-color: #3b82f6; /* Highlighted border color */
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5); /* Glow effect */
+    transform: scale(1.02); /* Slight zoom on focus */
+    outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form {
+        margin: 30px auto;
+        padding: 0 10px;
+    }
+
+    .fornm1 {
+        font-size: 14px;
+        height: 40px;
+    }
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

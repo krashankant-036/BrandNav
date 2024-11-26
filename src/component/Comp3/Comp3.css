@@ -1,0 +1,85 @@
+.comp3{
+    background-color: aquamarine;
+    margin: 20px;
+}
+.mains7{
+    text-align: center;
+}
+.n5{
+    display: flex;
+    gap: 50px;
+    margin: 100px;
+    margin-left: 300px;
+}
+
+
+/* =====================================responsive-============================ */
+/* Base Styling */
+.comp3 {
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+}
+
+.mains7 {
+    text-align: center;
+}
+
+/* Flex Section */
+.n5 {
+    display: flex;
+    gap: 50px;
+    margin: 50px auto; /* Center-aligns the content */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center; /* Centers the items */
+}
+
+.n5 div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.n5 div:hover {
+    transform: translateY(-10px); /* Move item up slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .n5 {
+        gap: 30px; /* Reduce spacing */
+    }
+
+    .n5 div {
+        width: 180px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .n5 {
+        margin: 30px auto;
+    }
+
+    .n5 div {
+        width: 150px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .n5 {
+        gap: 20px; /* Further reduce spacing */
+    }
+
+    .n5 div {
+        width: 120px;
+        height: 100px;
+        padding: 10px;
+    }
+}

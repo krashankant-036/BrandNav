@@ -1,0 +1,144 @@
+.comp2{
+    background-color:aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+}
+.mains5 h1{
+    text-align: center;
+    color: navy;
+
+}
+.n2{
+    display: flex;
+    gap: 30px;
+   
+}
+.n2 img{
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    margin-left: 200px;
+}
+
+
+/* ---------------------------------------------------Line 2 -------------------------------- */
+.mains6{
+    text-align: center;
+    margin-top: 80px;
+    color: navy;
+}
+
+/* ---------------------------line3----------------------- */
+.items{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+   gap: 30px;
+   margin: 100px;
+    
+}
+
+
+
+/* =============================make it responivise======================= */
+/* Base Styling */
+.comp2 {
+    background-color: aliceblue;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.mains5 h1 {
+    text-align: center;
+    color: navy;
+}
+
+/* Image Section */
+.n2 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    justify-content: center; /* Centers images for smaller screens */
+    margin: 40px 0;
+}
+
+.n2 img {
+    border-radius: 10px;
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.n2 img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Text Section */
+.mains6 {
+    text-align: center;
+    margin-top: 80px;
+    color: navy;
+}
+
+/* Grid Section */
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 100px;
+    padding: 0 20px; /* Adjust for smaller screens */
+}
+
+.items div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.items div:hover {
+    transform: translateY(-10px); /* Move item up slightly on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .n2 img {
+        height: 220px;
+        width: 260px;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 1fr); /* Reduce grid columns */
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .n2 img {
+        height: 200px;
+        width: 240px;
+    }
+
+    .items {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px;
+        margin: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .n2 img {
+        height: 180px;
+        width: 220px;
+    }
+
+    .items div {
+        padding: 15px;
+    }
+}
